@@ -1,0 +1,10 @@
+.content {
+    /* text-ellipsis overflow-hidden whitespace-nowrap */
+    /* display: -webkit-box; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -moz-box-orient: vertical;
+}
